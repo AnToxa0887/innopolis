@@ -6,11 +6,4 @@ and tc.constraint_name = kcu.constraint_name
 where tc.constraint_type = 'PRIMARY KEY'
 
 
-select *
-from public.customer
-where active = '0'
 
-
-select*
-from public.film
-where release_year = 2006
